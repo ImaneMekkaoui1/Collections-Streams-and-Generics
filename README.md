@@ -15,6 +15,28 @@ The exercises are divided into **two main parts**:
 1. **Collections & Streams**
 2. **Generics and OOP with a Product Management Application**
 
+### Key Concepts Used
+In this lab, several core Java concepts were utilized to ensure efficient data management and code reusability:
+
+### Java Collections Framework:
+
+ArrayList: Used for ordered lists of items where fast iteration and dynamic resizing are required (e.g., Product List).
+
+HashMap: Used for Key-Value pair storage to allow O(1) access time for retrieving student grades.
+
+HashSet: Selected for group management to automatically ensure uniqueness of elements and perform efficient set operations (Union/Intersection).
+
+### Stream API & Lambda Expressions:
+
+Utilized for writing concise, functional-style code.
+
+Operations like .filter(), .mapToDouble(), and .forEach() replaced verbose traditional loops, making the code more readable and expressive.
+
+### Generics:
+
+Implemented custom classes (GenericStorage<T>) and interfaces (IMetier<T>) to abstract the business logic.
+
+This ensures Type Safety at compile-time and eliminates the need for manual casting, adhering to best practices in software design.
 
 ##  Exercises
 
