@@ -33,3 +33,4 @@ The exercises are divided into **two main parts**:
   - Search for a product by name (case-insensitive)
 
 **Example Output:**
+![Product Management Output](ScreenshotsTp2/ProductManagement.png)
