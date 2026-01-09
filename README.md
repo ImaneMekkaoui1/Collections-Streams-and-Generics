@@ -59,13 +59,14 @@ The exercises are divided into **two main parts**:
 ---
 
 #### **1.3 Sets – Groups**
-- Created two HashSet<String> for groups A and B.
-- Performed:
+  - Created two HashSet<String> for groups A and B.
+  - Performed:
   - Add student names
   - Display **intersection**
   - Display **union**
 
 **Example Output:**
+
 ![Groups Output](ScreenshotsTp2/Groups.png)
 
 
@@ -79,9 +80,10 @@ The exercises are divided into **two main parts**:
   - removeElement(int index) → Remove by index
   - getElement(int index) → Retrieve element
   - getSize() → Current size
-- Tested with multiple types: Integer, String
+  - Tested with multiple types: Integer, String
 
 **Example Output:**
+
 ![Generic Storage Output](ScreenshotsTp2/Application.png)
 
 
@@ -90,20 +92,21 @@ The exercises are divided into **two main parts**:
 
 #### **2.2 Generic OOP – Product Management**
 
-- Created a **generic interface `IMetier<T>`** with methods:
-  - `add(T o)`  
-  - `List<T> getAll()`  
-  - `T findById(long id)`  
-  - `delete(long id)`
+  - Created a **generic interface IMetier<T>** with methods:
+  - add(T o)  
+  - List<T> getAll()  
+  - T findById(long id) 
+  - delete(long id)
 
-- Created `MetierProduitImpl` implementing `IMetier<ProductGeneric>`.
+  - Created MetierProduitImpl implementing IMetier<ProductGeneric>.
 
-- Created a `ProductGeneric` class with attributes:
-  - `id`, `name`, `brand`, `price`, `description`, `stock`
+  - Created a ProductGeneric class with attributes:
+  - id, name, brand, price, description, stock
 
-- Implemented `ApplicationMenu` with a **menu-driven console**:
+  - Implemented ApplicationMenu with a **menu-driven console**:
 
 **Menu:**
+
 ![Application Menu Output](ScreenshotsTp2/AppMenu.png)
 
 
