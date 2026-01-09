@@ -1,5 +1,5 @@
 # Collections-Streams-and-Generics
-**Author:** Imane Mekkaoui 
+**Student:** Imane Mekkaoui 
 **Class:** 1-SDIA / 2025-2027 
 **Project:** Practical Exercises on Collections, Streams, and Generics in Java
 
