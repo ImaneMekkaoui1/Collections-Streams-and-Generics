@@ -20,11 +20,11 @@ The exercises are divided into **two main parts**:
 
 ### 1️ Collections & Streams
 
-#### **1.1 Lists – `ProductManagementApp`**
-- Created a `Product` class with attributes:
-  - `id` (long)
-  - `name` (String)
-  - `price` (double)
+#### **1.1 Lists – ProductManagementApp**
+- Created a Product class with attributes:
+  - id (long)
+  - name (String)
+  - price (double)
 - Implemented the following operations on an ArrayList of products:
   - Add products
   - Delete a product by index
@@ -33,4 +33,5 @@ The exercises are divided into **two main parts**:
   - Search for a product by name (case-insensitive)
 
 **Example Output:**
+
 ![Product Management Output](ScreenshotsTp2/ProductManagement.png)
